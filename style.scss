@@ -1,12 +1,12 @@
-                                                                /*DESKTOP  */
-                                
+       /*DESKTOP  */
+
                                                                 /* RESET */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 
@@ -28,7 +28,7 @@ header h2 img{
 
                                 /* MAIN */
 body {
-    
+
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -68,7 +68,14 @@ input, textarea {
 }
 
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
 
+button {
+    margin-right: 10px; 
+}
 
                                                         /* FOOTER */
 footer {
@@ -83,7 +90,7 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
-    
+
 }
 footer a{
     text-decoration: none;
@@ -108,7 +115,7 @@ footer a{
     grid-template-columns: repeat(5, 1fr); 
     margin: 5px;
     padding: 5px;
-    
+
 }
 
 .row {
@@ -134,22 +141,16 @@ footer a{
     grid-template-columns: 1fr; 
     }
 }
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
-button {
-    margin-right: 10px; 
-}
+/* BOOSTRAP */
+
 
                                                                     /* CARDS */
 .card {
     width: 18rem;
     margin: 10px;
 }
-                                                        
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -177,7 +178,7 @@ button {
         justify-content: flex-start; 
     }
 
-    
+
 }
 @media (max-width: 700px ) {
     .card {
@@ -188,11 +189,5 @@ button {
         justify-content: flex-start; 
     }
 
-    
+
 }
-
-
-
-
-
-
