@@ -134,9 +134,15 @@ footer a{
     grid-template-columns: 1fr; 
     }
 }
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-/* BOOSTRAP */
-
+button {
+    margin-right: 10px; 
+}
 
                                                                     /* CARDS */
 .card {
